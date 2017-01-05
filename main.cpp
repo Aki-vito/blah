@@ -53,7 +53,7 @@ int main()
    shapes[0] = new Circle(10);
    shapes[1] = new Triangle(7,3);
    shapes[2] = new Rectangle(4);
-/////////////////////
+
 
 
 
@@ -73,18 +73,6 @@ int main()
 
    const char* c = "hello world";
 
-   testp[0] = t;
-   testp[1] = (void*)c;
-
-    do_this(t);
-    do_this(t);
-    do_this(t);
-    do_this(t);
-
-    do_that(var);
-    do_that(var);
-    do_that(var);
-    do_that(var);
 
     int *x = new  int;
     cout << "This is var: " << var  << endl ; // printing var;
